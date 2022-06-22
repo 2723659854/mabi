@@ -1,5 +1,5 @@
 {
-    "name": "mabi",
+    "name": "xiaosongshu/mabi",
     "description": "\"测试写一个扩展包\"",
     "type": "library",
     "require": {
