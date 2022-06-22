@@ -1,0 +1,49 @@
+ 第一步：
+ 执行composer init
+ Package name (<vendor>/<name>) [lims/test-composer]:
+ 这里填写你的 默认这个就可以：
+ lims/test-composer 作者|包名称
+ Description []:
+ 这里填写你的包简介：
+ lims/test-composer
+ Author [limingshang <18203232363@163.com>, n to skip]:
+ 这里填写你的一些作者信息 ：limingshang <18203232363@163.com> 作者|邮箱
+ Minimum Stability []:
+ 默认行为，这里填写 dev 我是基于github写的所以填写：
+ dev
+ （这定义了通过稳定性过滤包的默认行为。默认为 stable（稳定）。因此如果你依赖于一个 dev（开发）包，你应该明确的进行定义。
+ 对每个包的所有版本都会进行稳定性检查，而低于 minimum-stability 所设定的最低稳定性的版本，将在解决依赖关系时被忽略。对于个别包的特殊稳定性要求，
+ 可以在 require 或 require-dev 中设定（请参考 Package links））
+ Package Type (e.g. library, project, metapackage, composer-plugin) []:
+
+ 包的安装类型，这里填写library 我是基于github写的所以填写：
+ library
+
+ （包的安装类型，用来定义安装逻辑。如果你有一个包需要一个特殊的逻辑，你可以设定一个自定义的类型。这可以是一个 symfony-bundle，
+ 一个 wordpress-plugin 或者一个 typo3-module。这些类型都将是具体到某一个项目，而对应的项目将要提供一种能够安装该类型包的安装程序。
+
+ composer 原生支持以下4种类型：
+
+ library: 这是默认类型，它会简单的将文件复制到 vendor 目录。
+
+ project: 这表示当前包是一个项目，而不是一个库。例：框架应用程序 Symfony standard edition，内容管理系统 SilverStripe installer
+ 或者完全成熟的分布式应用程序。使用 IDE 创建一个新的工作区时，这可以为其提供项目列表的初始化。
+
+ metapackage: 当一个空的包，包含依赖并且需要触发依赖的安装，这将不会对系统写入额外的文件。因此这种安装类型并不需要一个 dist 或 source。
+
+ composer-plugin: 一个安装类型为 composer-plugin 的包，它有一个自定义安装类型，可以为其它包提供一个 installler。详细请查看 自定义安装类型。
+
+ 仅在你需要一个自定义的安装逻辑时才使用它。建议忽略这个属性，采用默认的 library。）
+
+ License []:
+
+ 包的许可协议,这里填写:MIT
+
+ 具体了解请参看
+ http://docs.phpcomposer.com/04-schema.html#type
+
+ 下面的直接回车到最后 。 略过就行（本人不太了解所以没写）
+————————————————
+版权声明：本文为CSDN博主「菜鸟-李大宝」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/a727574771/article/details/80682510
+https://blog.csdn.net/a727574771/article/details/80682510
