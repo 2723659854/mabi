@@ -1,5 +1,5 @@
 <?php
-namespace src\mabi;
+namespace Xiaosongshu;
 require 'vendor/autoload.php';
 
 use GuzzleHttp\Client as HtClient;
