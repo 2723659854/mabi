@@ -1,5 +1,5 @@
 {
-    "name": "admin/mabi",
+    "name": "mabi",
     "description": "\"测试写一个扩展包\"",
     "type": "library",
     "require": {
