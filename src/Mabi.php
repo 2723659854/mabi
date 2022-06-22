@@ -1,6 +1,6 @@
 <?php
 namespace Xiaosongshu;
-require 'vendor/autoload.php';
+require __DIR__ .'/../vendor/autoload.php';
 
 use GuzzleHttp\Client as HtClient;
 use GuzzleHttp\RequestOptions;
